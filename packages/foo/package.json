@@ -1,6 +1,6 @@
 {
   "name": "@test0147/foo9158",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "optionalDependencies": {
-    "@test0147/core9158": "0.0.0-PLACEHOLDER"
+    "@test0147/core9158": "0.1.0"
   },
   "publishConfig": {
     "access": "public"
