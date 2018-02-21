@@ -1,0 +1,15 @@
+{
+  "name": "@test0147/core9158",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

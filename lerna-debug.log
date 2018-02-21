@@ -1,0 +1,49 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   'conventional-commits': true,
+1 silly flags   conventionalCommits: true }
+2 verbose rootPath C:\Users\user\Desktop\test-optional
+3 info version 2.9.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\Users\user\Desktop\test-optional\VERSION
+7 silly initialize attempt
+8 info current version 0.0.0-PLACEHOLDER
+9 silly isDetachedHead
+10 silly getCurrentBranch
+11 verbose getCurrentBranch master
+12 verbose isDetachedHead false
+13 silly getCurrentBranch
+14 verbose getCurrentBranch master
+15 silly getUpdates
+16 info Checking for updated packages...
+17 silly hasTags
+18 verbose hasTags false
+19 info Comparing with initial commit.
+20 verbose updated @test0147/core9157
+21 verbose updated @test0147/foo9157
+22 info Checking for prereleased packages...
+23 verbose prereleased @test0147/core9157
+24 verbose prereleased @test0147/foo9157
+25 silly collectDependents
+26 silly isPackageDependentOf @test0147/core9157 @test0147/core9157
+27 silly isPackageDependentOf @test0147/core9157 @test0147/foo9157
+28 silly isPackageDependentOf @test0147/foo9157 @test0147/core9157
+29 silly isPackageDependentOf @test0147/foo9157 @test0147/foo9157
+30 silly collectUpdates
+31 verbose has filtered update @test0147/core9157
+32 verbose has filtered update @test0147/foo9157
+33 silly recommendFixedVersion for @test0147/core9157 at C:\Users\user\Desktop\test-optional\packages\core
+34 error initialize caught error
+35 error Error
+35 error     at Function.module.exports.sync (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\node_modules\execa\index.js:303:26)
+35 error     at Function.execSync (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\ChildProcessUtilities.js:59:30)
+35 error     at Function.recommendVersion (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\ConventionalCommitUtilities.js:74:61)
+35 error     at recommendFixedVersion (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\ConventionalCommitUtilities.js:67:42)
+35 error     at C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\commands\PublishCommand.js:512:34
+35 error     at Array.forEach (<anonymous>)
+35 error     at PublishCommand.recommendVersions (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\commands\PublishCommand.js:505:15)
+35 error     at PublishCommand.getVersionsForUpdates (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\commands\PublishCommand.js:466:14)
+35 error     at PublishCommand.initialize (C:\Users\user\AppData\Roaming\nvm\v8.9.4\node_modules\lerna\lib\commands\PublishCommand.js:301:12)
